@@ -45,6 +45,8 @@ IO.puts("f or t = #{f or f}")
 list= [1,"2",:hola,4]
 tuple= {1,"2",:hola,4}
 map= {1,"2",:hola,4}
+map2= %{a: 1, b: "2", c: :hola, d: 4}
+map3= %{"a" => 1, "b" => "2", "c" => :hola, "d" => 4}
 IO.puts("===functions===")
 IO.puts("is_boolean(t) = #{is_boolean(t)}")
 IO.puts("is_number(number) = #{is_number(number)}")
@@ -53,3 +55,5 @@ IO.puts("is_float(float) = #{is_number(float)}")
 IO.puts("is_binary(texto) = #{is_binary(texto)}")
 IO.puts("is_list(list) = #{is_list(list)}")
 IO.puts("is_map(map) = #{is_map(map)}")
+IO.puts("is_map(map2) = #{is_map(map2)}")
+IO.puts("is_map(map3) = #{is_map(map3)}")
