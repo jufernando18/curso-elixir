@@ -1,4 +1,4 @@
-defmodule Exercises do
+defmodule Exercises2 do
   def fibonacci(n) do
     case n  do
       0 -> 0
